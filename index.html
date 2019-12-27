@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Varun Singh</title>
+    <link rel="stylesheet" href="./css/flaticon.css">
+    <link rel="stylesheet" href="./css/icomoon.css">
+    <link rel="stylesheet" href="./css/open-iconic-bootstrap.min.css">
+</head>
+<body>
+  <div class="header">
+    <div class="progress-container">
+      <div class="progress-bar" id="pbar"></div>
+    </div>
+  </div>
+  <div class="sidenav">
+    <a class="closebtn" onclick="closeNav()">
+      <i class="material-icons">clear</i>
+    </a>
+    <a class="navitem about" onclick="closeNav()" href="#about">
+      <span>
+        <i class="material-icons">perm_identity</i>
+      </span>
+      <span>About</span>
+    </a>
+    <a class="navitem skills" onclick="closeNav()" href="#skills">
+      <span>
+        <i class="material-icons">widgets</i>
+      </span>
+      <span>Skills</span>
+    </a>
+    <a class="navitem portfolio" onclick="closeNav()" href="#portfolio">
+      <span>
+        <i class="material-icons">flag</i>
+      </span>
+      <span>Portfolio</span>
+    </a>
+    <a class="navitem contact" onclick="closeNav()" href="#contact">
+      <span>
+        <i class="material-icons">mail_outline</i>
+      </span>
+      <span>Contact</span>
+    </a>
+  </div>
+  <div class="openbtn" onclick="openNav()">=</div>
+  <div class="main">
+    <div class="home">
+      <div data-aos="fade-right" data-aos-duration="1500" class="homehead">
+        Hi.<br/>I am Varun Singh.<br/>
+      </div>
+      <div data-aos="fade-right" data-aos-duration="1500"  data-aos-delay="1000" class="homeside">
+        <small>Freelance Web Developer <br/>Based In India</small>
+      </div>
+      <div class="downc">
+        <div data-aos="zoom-in" data-aos-delay="1000" class="down">
+          <a href="#about"><i class="material-icons">keyboard_arrow_down</i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="about">
+      <div data-aos="fade-down" data-aos-duration="800"  class="abouthead">About Me</div>
+      <div data-aos="zoom-in" data-aos-duration="800" class="img">
+        <img src="./img/48605440-32b5-4845-a5af-1ab9a22c970c.webp" alt="mypic" width="300px" height="300px" />
+      </div>
+      <p>
+        I am a self-taught web developer based in India. I am currently majoring in Computer Science. 
+      </p>
+      <h2>Timeline</h2>
+      <hr>
+      <div class="timeline">
+        <div class="container left">
+          <div data-aos="fade-right" data-aos-duration="400" class="content">
+            <h2>2000</h2>
+            <p>Born</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div data-aos="fade-left" data-aos-duration="400" class="content">
+            <h2>2003</h2>
+            <p>Joined School</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div data-aos="fade-right" data-aos-duration="400" class="content">
+            <h2>2016</h2>
+            <p>Graduated High School</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div data-aos="fade-left" data-aos-duration="400" class="content">
+            <h2>2018</h2>
+            <p>Graduated Senior School</p>
+          </div>
+        </div>
+        <div class="container left">
+          <div data-aos="fade-right" data-aos-duration="400" class="content">
+            <h2>2018 - Present</h2>
+            <p>Bachelors in Computer Science</p>
+          </div>
+        </div>
+        <div class="container right">
+          <div data-aos="fade-left" data-aos-duration="400" class="content">
+            <h2>2018 - Present</h2>
+            <p>Started Learning Web Technologies</p>
+          </div>
+        </div>
+      </div>
+      <a data-aos="zoom-in" data-aos-delay="300" href="#">See my resume</a>
+    </div>
+    <hr>
+    <div id="skills">
+      <div data-aos="fade-up" data-aos-duration="800" class="skillhead">Skills</div>
+      <div style="color: rgba(255, 255, 255, 0.664);">Learning Never Stops</div>
+      <div class="skill">
+        HTML
+        <div class="skillcontainer">
+          <div class="skilled" id="html" style="background-color: yellowgreen;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        CSS
+        <div class="skillcontainer">
+          <div class="skilled" id="css" style="background-color: tomato;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        Javascript
+        <div class="skillcontainer">
+          <div class="skilled" id="js" style="background-color: teal;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        ReactJS
+        <div class="skillcontainer">
+          <div class="skilled" id="react" style="background-color: palevioletred;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        NodeJS
+        <div class="skillcontainer">
+          <div class="skilled" id="node" style="background-color: aquamarine;"></div>
+        </div>
+      </div>
+      <div class="skill">
+        MongoDB
+        <div class="skillcontainer">
+          <div class="skilled" id="mongo" style="background-color: rgb(0, 179, 24);"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div id="portfolio">
+      <div data-aos="zoom-out" data-aos-delay="200" class="portfoliohead">Portfolio</div>
+      <p>It's quite empty right now but soon it will be filled with something.</p>
+    </div>
+    <hr>
+    <div id="contact">
+      <div data-aos="zoom-out" data-aos-delay="200" class="contacthead">Contact Me</div>
+      <p>Currently availabe for contract or full-time work.</p>
+      <div class="form">
+        <div class="formel formel1">
+          <input type="text" placeholder="  Your Name" id="name">
+        </div>
+        <div class="formel formel2">
+          <input type="text" placeholder="  Your Email" id="email">
+        </div>
+        <div class="formel formel3">
+          <input type="text" placeholder="  Your Message" id="message">
+        </div>
+        <div class="formel formel4">
+          <button id="submitbutton" type="submit">Submit</button>
+        </div>
+      </div>
+      <div class="icons">
+        <a data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="100" target="_blank" href="http://www.twitter.com/shareefbaalak" class="iconc">
+          <span class="icon-twitter icon"></span>
+        </a data-aos="zoom-out">
+        <a data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="200" target="_blank" href="http://www.facebook.com/VSvarun.19" class="iconc">
+          <span class="icon-facebook icon"></span>
+        </a>
+        <a data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="400" target="_blank" href="http://www.instagram.com/varun._.singh" class="iconc">
+          <span class="icon-instagram icon"></span>
+        </a>
+        <a data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="600" target="_blank" href="http://www.linkedin.com/in/varun-singh-968371193/" class="iconc">
+          <span class="icon-linkedin icon"></span>
+        </a> 
+        <a data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="800" target="_blank" href="http://api.whatsapp.com/send?phone=+918527058209" class="iconc">
+          <span class="icon-whatsapp icon"></span>
+        </a> 
+      </div>
+      <div style="color: rgba(255, 255, 255, 0.705);">
+        Or mail me at <br>
+        <h2>
+          varun14gb@gmail.com
+        </h2>
+      </div>
+    </div>
+    <footer>
+      Copyright ©2019 All rights reserved | Made with love by Varun
+    </footer>
+  </div>
+  <script src="app.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
