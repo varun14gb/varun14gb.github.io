@@ -316,7 +316,7 @@ input{
   padding: 2px;
   margin: 4px 2px;
 }
-input#message{
+input#umessage{
   height: 90px;
   border: rgb(18, 102, 1) solid 2px;
 }

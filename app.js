@@ -56,3 +56,10 @@ function closeNav() {
     document.querySelector(".sidenav").style.transition = "none";
     document.querySelector(".sidenav").style.width = "0";
 }
+
+function submitform() {
+    let name = document.getElementById("uname").value;
+    let mail = document.getElementById("uemail").value;
+    let message = document.getElementById("umessage").value;
+    window.open(`mailto:varun14gb@gmail.com?subject=Hey! Let's work together. I am ${name} and my email is ${mail} .&body=${message}`);
+}
